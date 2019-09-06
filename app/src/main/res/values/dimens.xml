@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="recyle_divider_size">0.5dp</dimen>
+    <dimen name="recyle_divider_leftmargin_8dp">8dp</dimen>
+    <dimen name="recyle_divider_rightmargin_8dp">8dp</dimen>
+</resources>

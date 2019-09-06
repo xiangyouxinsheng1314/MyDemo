@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".listview.ListViewDemoActivity"
+    tools:showIn="@layout/activity_list_view_demo">
+    <com.demo.listview.DragListView
+        android:id="@+id/drag_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/gray_4"
+        android:dividerHeight="0.5dp">
+
+    </com.demo.listview.DragListView>
+
+</android.support.constraint.ConstraintLayout>
